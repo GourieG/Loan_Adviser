@@ -1,0 +1,97 @@
+/* Style the entire container */
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Style the close button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Style the login division */
+.login-division {
+    background-color: black;
+    width: 30%;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style the login division heading */
+.login-division h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the login division subheading */
+.login-division p {
+    margin-top: 10px;
+}
+
+/* Style the button container */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Style the social login button */
+.social-login {
+    background-color: #ddd;
+    padding: 15px 30px;  /* Increased width for wide button */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Style the login button */
+.login-btn {
+    background-color: green;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Style the info division */
+.info-division {
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the caption text */
+.caption {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Style the logo container */
+.logo-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Style the logos */
+.logo-container img {
+    width: 50px;
+
+
